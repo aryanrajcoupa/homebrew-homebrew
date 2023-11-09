@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class PrometheusPushgateway
+class PrometheusPushgateway < Formula
   desc 'CLI to prometheus/pushgateway'
   homepage 'https://github.com/prometheus/pushgateway'
   url 'https://github.com/prometheus/pushgateway/releases/download/v1.6.2/pushgateway-1.6.2.darwin-arm64.tar.gz'
