@@ -18,3 +18,10 @@ brew install aryanrajcoupa/homebrew/prometheus_pushgateway
 # For percona-toolkit (3.5.5)
 brew install aryanrajcoupa/homebrew/percona-toolkit
 ```
+
+Also to stop homebrew from auto-updating, export following env variable
+Maybe do it in `~/.zshrc`.
+```bash
+# Stopping homebrew autoupgrade
+export HOMEBREW_NO_AUTO_UPDATE=1
+```
