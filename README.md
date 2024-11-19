@@ -9,7 +9,7 @@ personal homebrew
 brew tap aryanrajcoupa/homebrew
 
 # Install a specific formula from https://github.com/aryanrajcoupa/homebrew-homebrew/tree/master/Formula
-# For mysql@8.0 (8.0.38)
+# For mysql@8.0 (8.0.37)
 brew install aryanrajcoupa/homebrew/mysql@8.0
 
 # For prometheus_pushgateway (1.6.2)
